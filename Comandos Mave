@@ -1,0 +1,26 @@
+/environment $ docker rm misonarqube -f -->>  borrado sonarqube
+
+Montamos proyecto de Java
+    entramos en carpeta proyecto --> cd proyectos/
+    
+instalar mvn (maven) --> sudo apt install maven
+damos a Y
+comprobar que está instalado  mvn --version
+
+Crear un proyecto de maven:
+  mvn archetype:generate \
+      -DgroupId=curso.es \
+      -DartifactId=mi-aplicacion \
+      -DarchetypeArtifactId=maven-archetype-quickstart \
+      -DarchetypeVersion=1.4 \
+      -DinteractiveMode=false
+      
+Compilar código de Java  (maven compilame el proyecto)
+        mvn compile
+        
+Comandos
+        java --> ejecutar
+        java c --> para compilar
+
+
+

@@ -1,0 +1,23 @@
+IvanOnJava8: c9ad33041167b71d833bfa2dee1296bca54caca2
+
+./gradlew sonarqube \
+  -Dsonar.projectKey=OnJava8 \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=c9ad33041167b71d833bfa2dee1296bca54caca2
+  
+  https://github.com/davidflanagan/javascript6_examples.git
+  git clone https://github.com/davidflanagan/javascript6_examples.git
+  
+  sonar-scanner \
+  -Dsonar.projectKey=JS \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=c9ad33041167b71d833bfa2dee1296bca54caca2
+  
+  sonar-scanner \
+  -Dsonar.projectKey=Cobol \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:8080 \
+  -Dsonar.login=c9ad33041167b71d833bfa2dee1296bca54caca2
+  
+  export PATH=$PATH:/home/ubuntu/environment/sonar/bin
